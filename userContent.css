@@ -1,0 +1,26 @@
+@-moz-document url(chrome://browser/content/browser.xul), url(about:newtab), url(about:home),url(about:privatebrowsing) {  
+    body{
+        background-size: cover !important;
+        background-image: url("components/firefoxwallpaper.png")!important;
+        --newtab-background-color: #000000 !important;
+        --newtab-background-color-secondary: #000000 !important;
+    }
+
+    /* removing watermark and logo */
+    .logo-and-wordmark{
+        opacity: 0;
+    }
+	.search-handoff-button .fake-textbox {
+		display: none !important; 
+}
+    #searchSuggestionTable{
+        opacity: 0;
+    } 
+    /* search border gradient */
+    .search-inner-wrapper{
+		opacity: 0;
+    }
+    #newtab-search-text{
+        opacity: 60% !important;
+    }
+}

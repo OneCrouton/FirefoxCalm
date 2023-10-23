@@ -145,7 +145,7 @@
         /* --uc-window-drag-space-width: 24px; */ /* To add extra window drag space in nav-bar */
     }
     #nav-bar{
-        border-inline: var(--uc-window-drag-space-width,80px) solid var(--toolbar-bgcolor) ;
+        border-inline: var(--uc-window-drag-space-width,80px) solid #f16971 ;
         border-inline-style: solid !important;
         border-right-width: calc(var(--uc-window-control-width,0px) + var(--uc-window-drag-space-width,0px));
 
@@ -219,8 +219,8 @@
 
     .titlebar-buttonbox * {
         border-radius: 5px;
-        /* width:35px; 
-        height:38px; */
+        /* width:35px; */
+        /* height:38px; */
     }
 
     #main-menubar {

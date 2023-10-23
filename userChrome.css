@@ -175,7 +175,9 @@
 	#nav-bar-overflow-button{
 		margin-top: -.5px !important; 
 	}
-
+	:root:not([inFullscreen]) #PersonalToolbar {
+		background-image: linear-gradient(to right, #49577e, #f16971 calc(100% - var(--uc-window-control-width,0px))) !important;
+	}
     :root {
         --uc-toolbar-height: 32px;
         --chrome-content-separator-color: none !important;
